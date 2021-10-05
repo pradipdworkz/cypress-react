@@ -1,0 +1,16 @@
+.count {
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    margin-left: 10rem;
+}
+
+.count h3 {
+    line-height: 8.6rem;
+    margin-right: 1rem;
+}
+
+.count h1 {
+    font-size: 5em;
+    margin-top: 2rem;
+}
