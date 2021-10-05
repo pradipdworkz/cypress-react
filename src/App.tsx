@@ -13,18 +13,15 @@ const App = () => {
   }
 
   return (
-    <div className="App">
-      return (
-      <div className="app">
-        <div>
-          <div className="count">
-            <h3>Count:</h3>
-            <h1>{count}</h1>
-          </div>
-          <div className="buttons">
-            <Button title={"-"} task={decrementCount} />
-            <Button title={"+"} task={incrementCount} />
-          </div>
+    <div className="app">
+      <div>
+        <div className="count">
+          <h3>Count:</h3>
+          <h1>{count}</h1>
+        </div>
+        <div className="buttons">
+          <Button title={"-"} task={decrementCount} />
+          <Button title={"+"} task={incrementCount} />
         </div>
       </div>
     </div>
