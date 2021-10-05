@@ -14,3 +14,11 @@
     font-size: 5em;
     margin-top: 2rem;
 }
+
+.count .red {
+    color: red;
+}
+
+.count .green {
+    color: green;
+}

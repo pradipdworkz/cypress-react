@@ -12,11 +12,18 @@ const Calculator = () => {
         setCount(count - 1)
     }
 
+    const getClassName = () => {
+        return count <= -10
+            ? "red"
+            : count >= 10 ? "green"
+                : undefined
+    }
+
     return (
         <div>
             <div className="count">
                 <h3>Count:</h3>
-                <h1 data-cy="calculator-count-h1">{count}</h1>
+                <h1 data-cy="calculator-count-h1" className={getClassName()}>{count}</h1>
             </div>
             <div className="buttons">
                 <Button title={"-"} task={decrementCount} />
